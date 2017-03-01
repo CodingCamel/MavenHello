@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.luo.MavenHello.AppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.012 sec <<< FAILURE!
+testApp(com.luo.MavenHello.AppTest)  Time elapsed: 0.009 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/easymock/EasyMock
+	at com.luo.MavenHello.AppTest.testApp(AppTest.java:42)
+Caused by: java.lang.ClassNotFoundException: org.easymock.EasyMock
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 29 more
+
