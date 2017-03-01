@@ -50,7 +50,7 @@ public class AppTest
         application=new App(student);  
         String getStr=application.doMethod();  
         //对 Mock 对象的行为进行验证  
-        String cstr="abc";//正确的字符串  
+        String cstr="abcd";//正确的字符串  
         assertEquals(cstr, getStr);  
         EasyMock.verify(student);  
         assertTrue(true);
